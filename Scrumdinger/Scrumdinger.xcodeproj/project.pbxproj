@@ -104,9 +104,9 @@
 			children = (
 				83A19F7A2C4795E3009335BE /* Models */,
 				83A19F502C46CAAB009335BE /* ScrumdingerApp.swift */,
-				83A19F522C46CAAB009335BE /* MeetingView.swift */,
-				83A19F7F2C4799E5009335BE /* CardView.swift */,
 				8396FC122C47B83700F596CB /* TrailingIconLabelStyle.swift */,
+				83A19F7F2C4799E5009335BE /* CardView.swift */,
+				83A19F522C46CAAB009335BE /* MeetingView.swift */,
 				8396FC102C47B53600F596CB /* Assets.xcassets */,
 				83A19F562C46CAAD009335BE /* Preview Content */,
 			);
