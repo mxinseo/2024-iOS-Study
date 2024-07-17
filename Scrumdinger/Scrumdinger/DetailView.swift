@@ -30,9 +30,14 @@ struct DetailView: View {
                         .foregroundColor(scrum.theme.accentColor)
                         .background(scrum.theme.mainColor)
                         .cornerRadius(4)
+                }           
+                .accessibilityElement(children: .combine)
+            }
+            Section(header: Text("Attendees")) {
+                ForEach(scrum.attendees) { attemdee in
+                    Label(attemdee.name, systemImage: "person")
                 }
             }
-            .accessibilityElement(children: .combine)
         }
     }
 }
